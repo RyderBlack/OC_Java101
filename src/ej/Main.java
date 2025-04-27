@@ -11,5 +11,11 @@ public class Main {
         System.out.println(sentence);
         String helloWorld = "Hello World";
         System.out.println(helloWorld);
+        displayText("Rogers");
     }
+
+    public static void displayText(final String text) {
+        System.out.println("Bonjour " + text);
+    }
+
 }
